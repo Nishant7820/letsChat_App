@@ -5,7 +5,7 @@ const socketio =require('socket.io');
 const formatMessage =require('./utils/messages');
 const {userJoin,getCurrentUser,userLeave,getRoomUsers } =require('./utils/users');
 //const { Socket } = require('dgram');
-//const { user } = users({ id: socket.id, username, room });
+
 
 const app = express();
 const server =http.createServer(app);
